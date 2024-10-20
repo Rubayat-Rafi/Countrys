@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.countrys-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* place-items: center; */
+  gap: 10px;
+}
+
+.country-container{
+  align-items: left;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  margin: 10px;
+  /* max-height: 400px; */
+  height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .countrys-container{
+    grid-template-columns: repeat(1, 1fr);
+    /* place-items: center; */
+    gap: 10px;
+  }
+}
