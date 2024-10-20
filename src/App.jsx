@@ -16,7 +16,7 @@ useEffect(() => {
   // console.log(countrys, "paice");
 
   const {cca3} = countrys;
-
+history
   return (
     <>
       <h1 style={{textAlign:'center'}}>Countrys: {countrys.length}</h1>
